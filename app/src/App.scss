@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background: lightblue;
+}
+
+@import "vars.scss";
+
+header {
+    @include font-l;
+}

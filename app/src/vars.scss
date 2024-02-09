@@ -1,0 +1,44 @@
+$white: "FFF";
+$gray_light: "EFEEF4";
+$gray_main: "5C6970";
+$gray_dark: "2E3438";
+$blue_light: "3625FF";
+$blue_dark: "0C0099";
+$red: "D35151";
+
+// font-family: Inter;
+@mixin font-xs {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: $gray_main;
+}
+
+@mixin font-s {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+}
+
+@mixin font-m {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+
+@mixin font-l {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+@mixin font-xl {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
