@@ -1,1 +1,0 @@
-# project for red-collar
